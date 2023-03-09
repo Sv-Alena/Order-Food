@@ -1,12 +1,14 @@
 body {
-  background-color: #161616
+  background-color: #161616;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .App{
   display: flex;
   justify-content: space-around;
   text-align: center;
- 
+  flex-wrap: wrap;
 }
 
 .block {
@@ -15,6 +17,22 @@ body {
 }
 
 img{
-  width: 400px;
+  width: 500px;
 }
 
+.cartIcon{
+  width: 60px;
+}
+.categoryButtonSelected{
+  background-color: green;
+}
+
+.categoryButton:hover {
+background-color: #fdeb6b;;
+}
+
+.categoryButton{
+cursor: pointer;
+margin: 5px;
+padding: 5px;
+}

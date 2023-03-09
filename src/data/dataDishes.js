@@ -5,7 +5,7 @@ const dataDishes = [
   price: 250,
   img: 'pasta',
   name: 'Паста',
-  category: 'ITALIAN'
+  category: 'ИТАЛЬЯНСКИЕ'
 },
 
 {
@@ -13,7 +13,7 @@ const dataDishes = [
   price: 500,
   img: 'shrimp',
   name: 'Креветки',
-  category: 'SEAFOOD'
+  category: 'МОРЕПРОДУКТЫ'
 },
 
 {
@@ -21,7 +21,7 @@ const dataDishes = [
   price: 670,
   img: 'salmon',
   name: 'Лосось',
-  category: 'SEAFOOD'
+  category: 'МОРЕПРОДУКТЫ'
 },
 
 {
@@ -29,7 +29,7 @@ const dataDishes = [
   price: 740,
   img: 'bakedsalmon',
   name: 'Запеченый лосось',
-  category: 'SEAFOOD'
+  category: 'МОРЕПРОДУКТЫ'
 },
 
 {
@@ -37,7 +37,7 @@ id: 5,
   price: 320,
   img: 'cheeseballs',
   name: 'Сырные шарики',
-  category: 'APPETIZERS'
+  category: 'ЗАКУСКИ'
 },
 
 {
@@ -45,7 +45,7 @@ id: 5,
   price: 340,
   img: 'easypasta',
   name: 'Легкая Паста',
-  category: 'ITALIAN'
+  category: 'ИТАЛЬЯНСКИЕ'
 },
 
 {
@@ -53,7 +53,7 @@ id: 5,
   price: 350,
   img: 'spagtomato',
   name: 'Спагетти',
-  category: 'ITALIAN'
+  category: 'ИТАЛЬЯНСКИЕ'
 },
 
 {
@@ -61,7 +61,7 @@ id: 5,
   price: 600,
   img: 'mixedpizza',
   name: 'Пицца',
-  category: 'ITALIAN'
+  category: 'ИТАЛЬЯНСКИЕ'
 },
 
 {
@@ -69,7 +69,7 @@ id: 5,
   price: 320,
   img: 'springrolls',
   name: 'Спринг Ролл',
-  category: 'APPETIZERS'
+  category: 'ЗАКУСКИ'
 },
 
 {  
@@ -77,7 +77,7 @@ id: 5,
   price: 15,
   img: 'tomatosalad',
   name: 'Салат из помидор',
-  category: 'SALADS'
+  category: 'САЛАТЫ'
 },
 
 {
@@ -85,7 +85,7 @@ id: 5,
   price: 320,
   img: 'feta',
   name: 'Салат из феты',
-  category: 'SALADS'
+  category: 'САЛАТЫ'
 }
 
 ] 
