@@ -5,14 +5,15 @@ import ChangeQuantity from "../cart/ChangeQuantity"
 
 const Dish = ({dish}) => {
     const [quantity, setQuantity] = useState(1);
-    const dispatch = useDispatch
+    const dispatch = useDispatch()
     return(
         <div>
             <img src={`./${dish.img}.jpg`} alt='dishes'/>
-            <h3>{dish.name}</h3>
+            <p>{dish.name}</p>
             <p>{dish.price} ₽</p>
             <ChangeQuantity quantity={quantity} setQuantity={setQuantity} />
-            <button onClick={() => {dispatch(addItemsToCart({dish, quantity}))}}>В КОРЗИНУ</button>
+            <button onClick={() => {dispatch(addItemsToCart({dish, quantity}))}}>В корзину</button>
+             
         </div>
     )
 }
